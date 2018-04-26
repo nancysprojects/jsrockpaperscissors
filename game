@@ -22,7 +22,24 @@ function fcompare(choice1,choice2){
     if (choice1 == "rock"){
       if (choice2 == "scissors"){
       return "rock wins";
-      };
+      }
+      else
+       return "paper wins";
+       
+    }
+  }
+  else
+  {
+    if (choice1 == "paper"){
+      if (choice2== "rock"){
+         return "paper wins";
+      }
+      else 
+      if (choice2 == "scissors"){
+       return "scissors wins";
+       }
+     
+       
     };
   }
 };
