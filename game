@@ -1,0 +1,8 @@
+var userchoice = prompt("Do you choose rock, paper or scissors?");
+var computerchoice = Math.rabdom();
+if (computerchoice  < 0.34 ){
+  computerchoice = "rock";
+}
+else if (computerchoice<0.67){
+  computerchoice = "paper";
+}
