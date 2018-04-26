@@ -13,5 +13,16 @@ console.log("computer: " + computerchoice);
 fcompare(userchoice,computerchoice);
 
 function fcompare(choice1,choice2){
-
+  var valid = "The result is a tie!";
+  if (choice1 == choice2){
+    return valid;
+  }
+  else 
+  {
+    if (choice1 == "rock"){
+      if (choice2 == "scissors"){
+      return "rock wins";
+      };
+    };
+  }
 };
