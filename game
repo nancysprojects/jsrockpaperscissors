@@ -6,3 +6,12 @@ if (computerchoice  < 0.34 ){
 else if (computerchoice<0.67){
   computerchoice = "paper";
 }
+else {
+  computerchoice = "scissors";
+}
+console.log("computer: " + computerchoice);
+fcompare(userchoice,computerchoice);
+
+function fcompare(choice1,choice2){
+
+};
