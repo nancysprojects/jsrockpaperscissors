@@ -38,7 +38,16 @@ function fcompare(choice1,choice2){
       if (choice2 == "scissors"){
        return "scissors wins";
        }
-     
+      else
+      if (choice1 == "scissors"){
+        if (choice2 == "rock"){
+          return "rock wins";
+        }
+        else
+        if (choice2 == "paper"){
+          return "scissors wins";
+        }
+      }
        
     };
   }
